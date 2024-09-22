@@ -7,10 +7,10 @@ This repository contains simple Java classes that simulate various entities such
 
 ### 1. **Book.java**
 - **Attributes**: 
-  - `title` (String): The title of the book (e.g., "The Book of Bill").
-  - `author` (String): The author of the book (e.g., "Alex Hirsch").
-  - `price` (int): The price of the book in dollars (e.g., 27).
-  - `year` (int): The year the book was published (e.g., 2024).
+  - `title` (String): The title of the book.
+  - `author` (String): The author of the book.
+  - `price` (int): The price of the book in dollars.
+  - `year` (int): The year the book was published.
 
 - **Constructors**:
   - Default constructor: Initializes the book with default values (No Title, No Author, 0 price, and 0 year).
@@ -21,7 +21,7 @@ This repository contains simple Java classes that simulate various entities such
 
 ### 2. **Plant.java**
 - **Attributes**: 
-  - `species` (String): Represents the species of the plant (e.g., *Rosa chinensis* for a rose).
+  - `species` (String): Represents the species of the plant.
   - `height` (float): The height of the plant in meters.
   - `sunlightRequirement` (String): Describes the amount of sunlight the plant needs (e.g., Full Sun, Partial Shade).
   - `plantType` (String): The general type of plant (e.g., Shrub, Tree, Root Vegetable).
@@ -32,18 +32,20 @@ This repository contains simple Java classes that simulate various entities such
 
 ### 3. **Smartphone.java**
 - **Attributes**:
-  - `brand` (String): The manufacturer or model of the smartphone (e.g., Apple, Samsung).
-  - `screenSize` (float): The diagonal size of the smartphone's screen in inches.
+  - `model` (String): The model of the smartphone.
+  - `brand` (String): The manufacturer of the smartphone.
+  - `memorySize` (int): The memory size of the smartphone in gigabytes (Gb).
+  - `price` (int): The price of the smartphone in som.
   - `batteryCapacity` (int): The battery capacity in milliampere-hours (mAh).
-  - `operatingSystem` (String): The OS that the smartphone runs (e.g., Android, iOS).
+  - `screenSize` (double): The diagonal size of the smartphone's screen in inches.
+  - `camera` (int): The camera resolution in megapixels (MP).
+
+- **Constructors**:
+  - Default constructor: Initializes the smartphone with default values (No Information).
+  - Parameterized constructor: Allows creating a smartphone with specified values for all attributes.
 
 - **Methods**:
-  - `displayInfo()`: Displays information about the smartphone's specifications.
-
-### 4. **Main.java**
-- **Purpose**: 
-  - Acts as the entry point of the program, demonstrating the creation of `Book`, `Plant`, and `Smartphone` objects and calling their methods to display information.
-  - Simulates the growth of plants using the `grow()` method and showcases different smartphone models and books.
+  - `displayInfo()`: Displays detailed specifications about the smartphone.
 
 ## How to Find the Code
 
