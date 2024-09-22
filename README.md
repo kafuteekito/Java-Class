@@ -36,18 +36,18 @@ The `Main` class contains the `main` method, which creates instances of the `Sma
 ## UML Class Diagram
 
 ```plaintext
-+----------------+
-|   Smartphone   |
-+----------------+
-| - model: String|
-| - brand: String|
-| - memorySize: int|
-| - price: int   |
-| - batteryCapacity: int |
-| - screenSize: double |
-| - camera: int  |
-+----------------+
-| + Smartphone() |
++--------------------------------------------------------------------------------------------------------------------------------+
+|   Smartphone                                                                                                                   |
++--------------------------------------------------------------------------------------------------------------------------------+
+| - model: String                                                                                                                |
+| - brand: String                                                                                                                |
+| - memorySize: int                                                                                                              |
+| - price: int                                                                                                                   |
+| - batteryCapacity: int                                                                                                         |
+| - screenSize: double                                                                                                           |
+| - camera: int                                                                                                                  |
++--------------------------------------------------------------------------------------------------------------------------------+
+| + Smartphone()                                                                                                                 |
 | + Smartphone(model: String, brand: String, memorySize: int, price: int, batteryCapacity: int, screenSize: double, camera: int) |
-| + displayInfo(): void |
-+----------------+
+| + displayInfo(): void                                                                                                          |
++--------------------------------------------------------------------------------------------------------------------------------+
